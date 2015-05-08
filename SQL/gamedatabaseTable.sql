@@ -1,4 +1,5 @@
-CREATE TABLE IF NOT EXISTS  games (Title        VARCHAR(30) NOT NULL,
+CREATE TABLE IF NOT EXISTS  games (id           INT 		NOT NULL,
+								   Title        VARCHAR(30) NOT NULL,
 								   Console      VARCHAR(12) NOT NULL,
-								   Rating       FLOAT,
-								   Multiplayer  BOOL);
+                                   PlayerNum    VARCHAR(10) NOT NULL,
+								   Rating       FLOAT);
