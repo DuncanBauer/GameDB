@@ -12,7 +12,7 @@ mainwindow::mainwindow(QWidget *parent) :
     db.setHostName("localhost");
     db.setDatabaseName("gamedatabase");
     db.setUserName("root");
-    db.setPassword("imawesome12");
+    db.setPassword("");
     if(db.open())
     {
         qDebug() << "Success!\n";
